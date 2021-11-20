@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GR.Domain\GR.Domain.csproj" />
+    <ProjectReference Include="..\GR.EntityFrameworkCore\GR.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
 </Project>

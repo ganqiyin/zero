@@ -12,4 +12,8 @@
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GR.Application\GR.Application.csproj" />
+  </ItemGroup>
+
 </Project>
